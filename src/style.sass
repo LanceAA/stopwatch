@@ -1,0 +1,32 @@
+.light-gray-bg
+  background-color: rgba(0,0,0,.03)
+
+.hoverable:hover .delete-btn
+  opacity: 1
+  transform: translateX(0px)
+  transition: opacity .5s, transform .5s !important
+
+.delete-btn
+  opacity: 0
+  position: absolute
+  height: 100%
+  width: 100%
+  right: 0
+  top: 0
+  transform: translateX(10px)
+  transition: opacity .5s, transform .5s !important
+
+.edit-btn
+  opacity: 0
+  position: absolute
+  height: 100%
+  width: 100%
+  left: 0
+  top: 0
+  transform: translateX(-10px)
+  transition: opacity .5s, transform .5s !important
+
+.hoverable:hover .edit-btn
+  opacity: 1
+  transform: translateX(0px)
+  transition: opacity .5s, transform .5s !important
